@@ -16,6 +16,7 @@ pip install scrapy
 ```
 
 ##Install selenium
+Selenium version must 2.53.6
 ```bash
 pip install selenium
 ```
@@ -25,11 +26,14 @@ yum install xorg-x11-server-Xvfb
 pip install PyVirtualDisplay 
 ```
 ##Browser version
+Browser used is Firefox browser
 ```bash
-Firefox browser version must 45.xx 
+Firefox browser version must 45.0.2 or 45.xx.xx 
 ```
 ##Running browser on background process
+To running browser on background process, install xvfb and pyVirtualDisplay
 ```bash
+from pyvirtualdisplay import Display
 display = Display(visible=0, size=(800,600)) </br>
 display.start() </br>
 driver = webdriver.Firefox() </br>
