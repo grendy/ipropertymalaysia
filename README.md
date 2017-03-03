@@ -50,3 +50,8 @@ conn=MySQLdb.connect(
             db=crawler.settings['MYSQL_DB'])
         return cls(conn)
 ```
+##Take content
+To take content in accordance required use xpath or css selector
+```bash
+response.xpath('//*[contains(@id, "frmSaveListing")]/ul/li[' + str(i) + ']//*[contains(@class, "article-right")]/span/text()').extract_first()
+```
