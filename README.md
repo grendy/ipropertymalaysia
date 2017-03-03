@@ -35,9 +35,9 @@ Firefox browser version must 45.0.2 or 45.xx.xx
 To running browser on background process, install xvfb and pyVirtualDisplay
 ```bash
 from pyvirtualdisplay import Display
-display = Display(visible=0, size=(800,600)) </br>
-display.start() </br>
-driver = webdriver.Firefox() </br>
+display = Display(visible=0, size=(800,600)) 
+display.start() 
+driver = webdriver.Firefox() 
 ```
 ##Connect to mysql using MySQLdb library
 Must insert mysql configuration into settings.py on scrapy </br>
