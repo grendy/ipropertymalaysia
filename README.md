@@ -21,6 +21,7 @@ Selenium version must 2.53.6
 pip install selenium
 ```
 ##Install xvfb and PyVirtualDisplay for running browser on background process
+Python2.7 must be installed on the device
 ```bash
 yum install xorg-x11-server-Xvfb 
 pip install PyVirtualDisplay 
