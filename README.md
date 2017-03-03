@@ -63,12 +63,6 @@ driver.find_element_by_id('s_imgBtnSearch').click()
 ##Running engine
 To running engine use crontab for automatic scheduling
 ```bash
-2 * * * * cd /root/crawler/twitter && python2.7 twitter_api.py > /dev/null 2>&1
-2 * * * * cd /root/crawler/twitter && python2.7 twitter_api2.py > /dev/null 2>&1
-2 * * * * cd /root/crawler/twitter && python2.7 twitter_api3.py > /dev/null 2>&1
-2 * * * * cd /root/crawler/twitter && python2.7 twitter_api4.py > /dev/null 2>&1
-2 * * * * cd /root/crawler/twitter && python2.7 twitter_api5.py > /dev/null 2>&1
-2 * * * * cd /root/crawler/twitter && python2.7 twitter_api6.py > /dev/null 2>&1
-8 * * * * cd /root/crawler/twitter && python2.7 migrasi.py > /dev/null 2>&1
-59 * * * * kill -9 $(ps -ef|grep "twitter_api.py"|grep -v "grep"|awk '{print $2}') %% kill -9 $(ps -ef|grep "twitter_api2.py"|grep -v "grep"|awk '{print $2}')
+2 * * * * cd /root/crawler/ipropertymalay && python2.7 ipropertymalay.py > /dev/null 2>&1
+1 * * * * kill -9 $(ps -ef|grep "ipropertymalay.py"|grep -v "grep"|awk '{print $2}')
 ```
