@@ -35,6 +35,7 @@ display.start() </br>
 driver = webdriver.Firefox() </br>
 ```
 ##Connect to mysql using MySQLdb library
+Must insert mysql configuration into settings.py on scrapy </br>
 ```bash
 conn=MySQLdb.connect(  
             host=crawler.settings['MYSQL_HOST'], 
