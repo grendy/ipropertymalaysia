@@ -2,7 +2,7 @@
 Crawling ipropertymalaysia using scrapy and send json to kafka
 ##Install scrapy on centos
 ```bash 
-sudo rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm </br>
+sudo rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 yum update -y 
 yum install python-pip -y 
 yum install python-devel -y 
