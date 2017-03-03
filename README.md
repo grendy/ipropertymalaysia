@@ -55,3 +55,7 @@ To take content in accordance required use xpath or css selector
 ```bash
 response.xpath('//*[contains(@id, "frmSaveListing")]/ul/li[' + str(i) + ']//*[contains(@class, "article-right")]/span/text()').extract_first()
 ```
+##To click button
+```bash
+driver.find_element_by_id('s_imgBtnSearch').click()
+```
